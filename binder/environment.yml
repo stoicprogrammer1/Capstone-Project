@@ -1,0 +1,16 @@
+name: qgrid-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - qgrid
+  - seaborn
+  - imbalanced-learn
+  - pandas-datareader>=0.5.0
+  - matplotlib>=2.1.1
+  - voila
+  - folium
+  - geocoder
+  - fbprophet
+  - geopy
